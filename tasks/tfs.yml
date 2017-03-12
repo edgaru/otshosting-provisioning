@@ -14,7 +14,7 @@
    - libboost-iostreams-dev
 
 - name: Download latest TFS from git
-  git: repo=github.com/otland/forgottenserver.git
+  git: repo=https://github.com/otland/forgottenserver.git
        dest=/home/otsmanager/forgottenserver
        version=1.1
   become: true
